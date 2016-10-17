@@ -1,5 +1,8 @@
 const fetch = require('node-fetch');
 
+
+
+
 run(function *() {
 	const uri = 'http://jsonplaceholder.typicode.com/posts/1';
 	const response = yield fetch(uri);
